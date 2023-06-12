@@ -12,3 +12,13 @@ body{
   height: 300px;
 }
 
+button{
+  background-color: #417f68;
+
+}
+
+bold{
+  color: #417f68;
+  font-size: 3rem;
+
+}
