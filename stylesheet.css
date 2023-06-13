@@ -3,22 +3,41 @@ body{
   font-size: 16px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .container{
+  position: relative;
+  top: 250px;
   display: flex;
   width: 400px;
-  height: 300px;
+  height: 350px;
+  border: none;
+  border-radius: 10%;
 }
 
 button{
   background-color: #417f68;
-
+  color: white;
 }
 
 bold{
   color: #417f68;
   font-size: 3rem;
+}
 
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 1rem;
+}
+
+.picture{
+  display: flex;
+
+}
+
+.price{
+  display: inline-flex;
 }
